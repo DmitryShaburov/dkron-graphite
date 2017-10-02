@@ -10,7 +10,7 @@ Writes into graphite four metrics for each job in Dkron:
 * error_count: number of failed executions
 
 ## Usage
-`dkron-graphite.exe --url=http://dkron.domain.local:8080 --host=graphite.domain.local --prefix=apps.graphite`
+`dkron-graphite.exe --url=http://dkron.domain.local:8080 --host=graphite.domain.local --prefix=apps.dkron`
 
 ## Example Dkron job
 ```
