@@ -16,7 +16,7 @@ Writes into graphite four metrics for each job in Dkron:
 ```
 {
   "name": "dkron_graphite",
-  "command": "c:/etc/dkron-graphite/dkron-graphite.exe --url=http://dkron.domain.local:8080 --host=graphite.domain.local --prefix=apps.graphite",
+  "command": "c:/etc/dkron-graphite/dkron-graphite.exe --url=http://dkron.domain.local:8080 --host=graphite.domain.local --prefix=apps.dkron",
   "schedule": "@every 20s",
   "concurrency": "allow",
   "tags": {
